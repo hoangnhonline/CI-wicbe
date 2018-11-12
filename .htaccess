@@ -1,0 +1,27 @@
+# cache images v� flash 30 ng�y
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+# cache text, css, v� javascript files 1 tu?n
+<FilesMatch ".(js|css|pdf|txt)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+# cache html v� htm files m?t ng�y
+<FilesMatch ".(html|htm)$">
+Header set Cache-Control "max-age=43200"
+</FilesMatch>
+# kh�ng cach scripts files
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+RewriteEngine On
+
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?/$1 [L]
+

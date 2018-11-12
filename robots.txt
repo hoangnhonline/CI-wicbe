@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /back/
+Disallow: /captcha/
+Disallow: /system/
+Disallow: /js/
+Disallow: /css/
+Allow: /

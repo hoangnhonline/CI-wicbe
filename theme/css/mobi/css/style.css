@@ -1,0 +1,348 @@
+body{font-family:tahoma,arial,sans-serif;font-size:13px}
+#menu{background:#e7e8ea;margin:0;border-right:1px solid #ccc;position:fixed;left:0;width:25%;-webkit-overflow-scrolling:touch;overflow-y:scroll;min-height:100%;height:100%;z-index:9999;top:40px}
+#menu #close{font-size:1.5em;position:absolute;top:0;right:0;padding:5px 10px;background:#900;color:#fff;-webkit-transition:background 300ms ease-in-out;-moz-transition:background 300ms ease-in-out;-ms-transition:background 300ms ease-in-out;-o-transition:background 300ms ease-in-out;transition:background 300ms ease-in-out}
+#menu #close:hover{background:#c90202}
+.menu-open{padding:5px 0;position:absolute;z-index:9999;top:5px;right:20px;cursor:pointer;-webkit-transition:background 300ms ease-in-out;-moz-transition:background 300ms ease-in-out;-ms-transition:background 300ms ease-in-out;-o-transition:background 300ms ease-in-out;transition:background 300ms ease-in-out}
+#menu-open{padding:5px 0;position:absolute;z-index:10;top:0;cursor:pointer;-webkit-transition:background 300ms ease-in-out;-moz-transition:background 300ms ease-in-out;-ms-transition:background 300ms ease-in-out;-o-transition:background 300ms ease-in-out;transition:background 300ms ease-in-out;width:100%;float:left;height:28px}
+#menu p{margin:0;padding:10px 20px;color:#fff}
+#menu ul{margin:0;padding:0}
+#menu ul li{list-style:none;float:left;-webkit-transition:background 300ms ease-in-out;-moz-transition:background 300ms ease-in-out;-ms-transition:background 300ms ease-in-out;-o-transition:background 300ms ease-in-out;transition:background 300ms ease-in-out;width:100%;border-bottom:1px solid #fff}
+#menu ul li:nth-of-type(even){background:#1a79b9}
+#menu ul li a{padding:6px 0;display:block;font-size:13px;color:#474747;height:auto;text-indent:30px;text-decoration:none;-webkit-transition:color 300ms ease-in-out;-moz-transition:color 300ms ease-in-out;-ms-transition:color 300ms ease-in-out;-o-transition:color 300ms ease-in-out;transition:color 300ms ease-in-out;background:#e7e8ea;text-transform:uppercase;font-weight:bold;position:relative}
+#menu ul li a:hover{}
+#menu-open{display:block !important}
+@media (max-width:48em){#menu{width:100%}
+}
+.icon_menu_mb{float:left;background:#083f88;width:5px;height:5px;position:absolute;left:15px;top:10px;border-radius:50%}
+.img_logo_mb{width:76px;margin-left:10px;position:absolute;top:43px;left:0;z-index:100}
+.header2c_mb{float:left}
+.header2c_mb a{color:#666;float:left;margin-top:25px;margin-left:20px;font-size:14px}
+.list_news_mb{padding-left:10px;padding-right:10px}
+.list_new_mb_2{width:100%;float:left;margin-top:10px}
+.title_h1{text-indent:10px;padding:10px 0;background:#083f88;font-size:14px;text-transform:uppercase;color:#fff;text-align:center;margin-bottom:10px;display:inline-block;width:100%}
+.ct_ndung_mb p{max-width:100%}
+.headmid{display:none}
+#menu-open{float:left;width:100%;background:#083f88}
+.slogan_mb{position:absolute;left:0;right:0;margin-right:auto;margin-left:0;top:10px;color:#fff;text-transform:uppercase;text-align:center}
+.body_mb{overflow:hidden}
+#slider_mb{float:left;width:100%}
+#main_content_mb{float:left;width:100%}
+#menu_mb{float:left;width:100%}
+#menu_mb_menu{float:left;height:32px;width:100%}
+#menu-open{float:left;width:100%;background:#083f88}
+.footer_mangxh{width:100%;float:right;margin-top:7px;margin-left:10px;text-align:center}
+.secoial_icon{width:30px;height:30px;margin-left:5px;display:inline-block;background:url(../../../images/mxh.png) no-repeat}
+.secoial_icon.icon_twitter{background-position:-41px 0}
+.secoial_icon.icon_google{background-position:-82px 0}
+.secoial_icon.icon_google_{background-position:-125px 0}
+#footer{float:left;width:100%;background:#083f88}
+.footer_mb{padding-left:10px;padding-right:10px}
+.wp_text_ft{float:left;width:100%;text-align:center;padding-bottom:10px}
+.wp_text_ft p{text-align:center;color:#fff;padding-bottom:5px;font-size:12px}
+#content_hom{float:left;width:100%}
+.content_content{padding-right:10px;padding-left:10px;padding-bottom:10px;padding-top:10px}
+@media screen and (min-width:860px) and (max-width:999px){.logo_link_a{float:left;width:32%;padding-bottom:10px;margin-right:1.5%}
+    .logo_link_a2{margin-right:0 !important}
+    .img_href{float:left;width:100%;height:73px}
+    .child_product_mb{float:left;width:32%;text-align:center;border:1px solid #d9d9d9;margin-top:10px;height:210px;margin-right:1.5%}
+    .child_product_mb2{margin-right:0 !important}
+    .title{padding:7px 0;height:40px}
+    .price{color:#ec0e18;font:16px 'Arial';font-weight:bold;width:100%;padding:20px 0 10px}
+    .img_pr_mb{text-align:center;max-width:90%;max-height:100px}
+    .slogan_mb{font-size:19px !important}
+    .main_sp{padding-left:10px;padding-right:10px}
+    #page{float:left;width:100%}
+    #contentWrap{width:100% !important;padding:0 !important}
+    .map{margin:0 !important;float:left;width:100%!important}
+    #map_canvas{width:99%!important;height:300px!important;float:left}
+    .autoempty{float:left;width:100% !important}
+    .emailForm,#emailWrap{float:left;width:100% !important}
+    .title_h1_mb{background:#083f88;padding:7px 0;text-indent:10px}
+    .header{float:left;width:100%;margin-top:10px}
+    .content_html_mb{float:left;width:100%;padding:0 !important;margin:10px 0}
+    .content_html_mb img{max-width:100%;height:auto !important}
+    .wp_menu_child_mb{float:left;width:100%}
+    .list_menu_child_mb{border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9}
+    .list_menu_child_mb,.list_menu_child_mb li{float:left;width:100%}
+    .list_menu_child_mb li a{padding:10px 0;border-bottom:1px solid #d9d9d9;float:left;width:100%;text-indent:10px;color:#6b6c6d;font-weight:bold}
+    .bg_menu{background:#083f88;color:#fff !important;text-transform:uppercase;border:1px solid #083f88}
+    .title a{color:#6b6c6d}
+    .sp_cung_gia{float:left;width:100%}
+    .img_mb_item{margin-top:10px}
+    .item_detail_mb{float:left;width:100%;margin-left:0 !important}
+    .header_mb1{float:left;width:100%}
+    .tb{float:left;width:100%}
+    .wp_img_detail1{float:left;width:100%}
+    .wp_table1{float:left;width:100%}
+    .wp_table2{float:left;width:100% !important}
+    .tabContent div table,.tabContent div img{max-width:100% !important}
+    .tabContent div table{width:inherit !important}
+    .child_news{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px}
+    .child_news1{float:right}
+    .img_href{float:left;width:40%}
+    .img_href img{width:100%;float:left}
+    .name_news{float:right;width:56%;color:#083f88;margin-top:10px;font-weight:bold}
+    .img_href{float:left;width:40%;height:auto}
+    .img_href img{width:100%;height:auto !important;float:left}
+    .child_child_pd{width:32%;float:left;border:1px solid #d9d9d9;margin-top:10px;text-align:center;margin-right:1.5%}
+    .child_child_pd2{margin-right:0}
+    .name_pr1{color:#083f88;font-weight:bold;text-decoration:none;display:inline-block;height:30px}
+}
+@media screen and (min-width:601px) and (max-width:860px){.logo_link_a{float:left;width:32%;margin-bottom:10px;margin-right:1.5%}
+    .logo_link_a2{margin-right:0 !important}
+    .img_href{float:left;width:100%;height:73px}
+    .child_product_mb{float:left;width:49%;text-align:center;border:1px solid #d9d9d9;margin-top:10px;height:210px}
+    .child_product_mb1{float:right !important}
+    .title{padding:7px 0;height:40px}
+    .price{color:#ec0e18;font:16px 'Arial';font-weight:bold;width:100%;padding:20px 0 10px}
+    .img_pr_mb{text-align:center;max-width:90%;max-height:100px}
+    .slogan_mb{font-size:19px !important}
+    .main_sp{padding-left:10px;padding-right:10px}
+    #page{float:left;width:100%}
+    #contentWrap{width:100% !important;padding:0 !important}
+    .map{margin:0 !important;float:left;width:100%!important}
+    #map_canvas{width:99%!important;height:300px!important;float:left}
+    .autoempty{float:left;width:100% !important}
+    .emailForm,#emailWrap{float:left;width:100% !important}
+    .title_h1_mb{background:#0093dd;padding:7px 0;text-indent:10px;height:inherit}
+    .header{float:left;width:100%;margin-top:10px}
+    .content_html_mb{float:left;width:100%;padding:0 !important;margin:10px 0}
+    .content_html_mb img{max-width:100%;height:auto !important}
+    .wp_menu_child_mb{float:left;width:100%}
+    .list_menu_child_mb{border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9}
+    .list_menu_child_mb,.list_menu_child_mb li{float:left;width:100%}
+    .list_menu_child_mb li a{padding:10px 0;border-bottom:1px solid #d9d9d9;float:left;width:100%;text-indent:10px;color:#6b6c6d;font-weight:bold}
+    .bg_menu{background:#083f88;color:#fff !important;text-transform:uppercase;border:1px solid #0093dd}
+    .title a{color:#6b6c6d}
+    .sp_cung_gia{float:left;width:100%}
+    .img_mb_item{margin-top:10px}
+    .item_detail_mb{float:left;width:100%;margin-left:0 !important}
+    .header_mb1{float:left;width:100%}
+    .tb{float:left;width:100%}
+    .wp_img_detail1{float:left;width:100%}
+    .wp_table1{float:left;width:100%}
+    .wp_table2{float:left;width:100% !important}
+    .tabContent div table,.tabContent div img{max-width:100% !important}
+    .tabContent div table{width:inherit !important}
+    .child_news{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px}
+    .child_news1{float:right}
+    .img_href{float:left;width:40%}
+    .img_href img{width:100%;float:left}
+    .name_news{float:right;width:56%;color:#083f88;margin-top:10px;font-weight:bold}
+    .img_href{float:left;width:40%;height:auto}
+    .img_href img{width:100%;height:auto !important;float:left}
+    .child_child_pd{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px;text-align:center}
+    .child_child_pd1{float:right}
+    .name_pr1{color:#083f88;font-weight:bold;text-decoration:none;display:inline-block;height:30px}
+    .img_href_news{float:left;width:40%}
+    .img_href_news_1{float:left;width:100%}
+}
+@media screen and (min-width:320px) and (max-width:580px){.slogan_mb{margin-left:50px !important;font-size:13px}
+    #main_content{width:100% !important}
+}
+@media screen and (min-width:601px) and (max-width:700px){.child_product_mb{float:left;width:49%;text-align:center;border:1px solid #d9d9d9;margin-top:10px;height:210px}
+    .child_product_mb1{float:right !important}
+    .title{padding:7px 0;height:40px}
+    .price{color:#ec0e18;font:16px 'Arial';font-weight:bold;width:100%;padding:20px 0 10px}
+    .img_pr_mb{text-align:center;max-width:90%;max-height:100px}
+    .slogan_mb{font-size:19px !important}
+    .main_sp{padding-left:10px;padding-right:10px}
+    #page{float:left;width:100%}
+    #contentWrap{width:100% !important;padding:0 !important}
+    .map{margin:0 !important;float:left;width:100%!important}
+    #map_canvas{width:99%!important;height:300px!important;float:left}
+    .autoempty{float:left;width:100% !important}
+    .emailForm,#emailWrap{float:left;width:100% !important}
+    .title_h1_mb{background:#083f88;padding:7px 0;text-indent:10px;height:inherit}
+    .header{float:left;width:100%;margin-top:10px}
+    .content_html_mb{float:left;width:100%;padding:0 !important;margin:10px 0}
+    .content_html_mb img{max-width:100%;height:auto !important}
+    .wp_menu_child_mb{float:left;width:100%}
+    .title a{color:#6b6c6d}
+    .list_menu_child_mb{border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9}
+    .list_menu_child_mb,.list_menu_child_mb li{float:left;width:100%}
+    .list_menu_child_mb li a{padding:10px 0;border-bottom:1px solid #d9d9d9;float:left;width:100%;text-indent:10px;color:#6b6c6d;font-weight:bold}
+    .bg_menu{background:#0093dd;color:#fff !important;text-transform:uppercase;border:1px solid #0093dd}
+    .sp_cung_gia{float:left;width:100%}
+    .item_detail_mb{float:left;width:100%;margin-left:0 !important}
+    .header_mb1{float:left;width:100%}
+    .tb{float:left;width:100%}
+    .wp_img_detail1{float:left;width:100%}
+    .wp_table1{float:left;width:100%}
+    .wp_table2{float:left;width:100% !important}
+    .tabContent div table,.tabContent div img{max-width:100% !important}
+    .tabContent div table{width:inherit !important}
+    .img_mb_item{margin-top:10px}
+    .child_news{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px}
+    .child_news1{float:right}
+    .img_href{float:left;width:40%}
+    .img_href img{width:100%;float:left}
+    .name_news{float:right;width:56%;color:#083f88;margin-top:10px;font-weight:bold}
+    .img_href{float:left;width:40%;height:auto}
+    .img_href img{width:100%;height:auto !important;float:left}
+    .child_child_pd{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px;text-align:center}
+    .child_child_pd1{float:right}
+    .name_pr1{color:#083f88;font-weight:bold;text-decoration:none;display:inline-block;height:30px}
+    .img_href_news{float:left;width:40%}
+    .img_href_news_1{float:left;width:100%}
+}
+@media screen and (min-width:501px) and (max-width:600px){.logo_link_a{float:left;width:49%;margin-bottom:10px;border:1px solid #ccc}
+    .logo_link_a1{float:right}
+    .child_product_mb{float:left;width:49%;text-align:center;border:1px solid #d9d9d9;margin-top:10px;height:210px}
+    .child_product_mb1{float:right !important}
+    .title{padding:7px 0;height:40px}
+    .title a{color:#6b6c6d}
+    .price{color:#ec0e18;font:16px 'Arial';font-weight:bold;width:100%;padding:20px 0 10px}
+    .img_pr_mb{text-align:center;max-width:90%;max-height:100px}
+    .slogan_mb{font-size:19px !important}
+    .main_sp{padding-left:10px;padding-right:10px}
+    #page{float:left;width:100%}
+    #contentWrap{width:100% !important;padding:0 !important}
+    .map{margin:0 !important;float:left;width:100%!important}
+    #map_canvas{width:99%!important;height:300px!important;float:left}
+    .autoempty{float:left;width:100% !important}
+    .emailForm,#emailWrap{float:left;width:100% !important}
+    .title_h1_mb{background:#0093dd;padding:7px 0;text-indent:10px;height:inherit}
+    .header{float:left;width:100%;margin-top:10px}
+    .content_html_mb{float:left;width:100%;padding:0 !important;margin:10px 0}
+    .content_html_mb img{max-width:100%;height:auto !important}
+    .wp_menu_child_mb{float:left;width:100%}
+    .list_menu_child_mb{border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9}
+    .list_menu_child_mb,.list_menu_child_mb li{float:left;width:100%}
+    .list_menu_child_mb li a{padding:10px 0;border-bottom:1px solid #d9d9d9;float:left;width:100%;text-indent:10px;color:#6b6c6d;font-weight:bold}
+    .bg_menu{background:#083f88;color:#fff !important;text-transform:uppercase;border:1px solid #083f88}
+    .sp_cung_gia{float:left;width:100%}
+    .img_mb_item{margin-top:10px}
+    .item_detail_mb{float:left;width:100%;margin-left:0 !important}
+    .header_mb1{float:left;width:100%}
+    .tb{float:left;width:100%}
+    .wp_img_detail1{float:left;width:100%}
+    .wp_table1{float:left;width:100%}
+    .wp_table2{float:left;width:100% !important}
+    .tabContent div table,.tabContent div img{max-width:100% !important}
+    .tabContent div table{width:inherit !important}
+    .child_news{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px}
+    .child_news1{float:right}
+    .img_href{float:left;width:40%}
+    .img_href img{width:100%;float:left}
+    .name_news{float:right;width:56%;color:#083f88;margin-top:10px;font-weight:bold}
+    .img_href{float:left;width:40%;height:auto}
+    .img_href img{width:100%;height:auto !important;float:left}
+    .child_news{float:left;width:100%;margin-top:10px;border:1px solid #d9d9d9}
+    .name_news{float:right;width:56%;color:#083f88;margin-top:10px;font-weight:bold}
+    .child_child_pd{width:49%;float:left;border:1px solid #d9d9d9;margin-top:10px;text-align:center}
+    .child_child_pd1{float:right}
+    .name_pr1{color:#083f88;font-weight:bold;text-decoration:none;display:inline-block;height:30px}
+    .img_href_news{float:left;width:40%}
+    .img_href_news_1{float:left;width:100%}
+}
+@media screen and (min-width:320px) and (max-width:500px){.logo_link_a{float:left;width:49%;margin-bottom:10px;border:1px solid #ccc}
+    .logo_link_a1{float:right}
+    .img_href{float:left;width:100%;height:73px}
+    .child_product_mb{float:left;width:100%;text-align:center;border:1px solid #d9d9d9;margin-top:10px}
+    .title{padding:7px 0}
+    .price{color:#ec0e18;font:16px 'Arial';font-weight:bold;width:100%;padding:20px 0 10px}
+    .img_pr_mb{text-align:center;max-width:90%}
+    .main_sp{padding-left:10px;padding-right:10px}
+    #page{float:left;width:100%}
+    #contentWrap{width:100% !important;padding:0 !important}
+    .map{margin:0 !important;float:left;width:100%!important}
+    #map_canvas{width:99%!important;height:300px!important;float:left}
+    .autoempty{float:left;width:100% !important}
+    .emailForm,#emailWrap{float:left;width:100% !important}
+    .title_h1_mb{background:#0093dd;padding:7px 0;text-indent:10px;height:inherit}
+    .header{float:left;width:100%;margin-top:10px}
+    .content_html_mb{float:left;width:100%;padding:0 !important;margin:10px 0}
+    .content_html_mb img{max-width:100%;height:auto !important}
+    .wp_menu_child_mb{float:left;width:100%}
+    .list_menu_child_mb{border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9}
+    .list_menu_child_mb,.list_menu_child_mb li{float:left;width:100%}
+    .list_menu_child_mb li a{padding:10px 0;border-bottom:1px solid #d9d9d9;float:left;width:100%;text-indent:10px;color:#6b6c6d}
+    .bg_menu{background:#083f88;color:#fff !important;text-transform:uppercase;border:1px solid #083f88}
+    .title a{color:#6b6c6d}
+    .item_detail_mb{float:left;width:100%;margin-left:0 !important}
+    .header_mb1{float:left;width:100%}
+    .tb{float:left;width:100%}
+    .wp_img_detail1{float:left;width:100%}
+    .wp_table1{float:left;width:100%}
+    .wp_table2{float:left;width:100% !important}
+    .tabContent div table,.tabContent div img{max-width:100% !important}
+    .tabContent div table{width:inherit !important}
+    .sp_cung_gia{float:left;width:100%}
+    .child_child_pd{width:100%;border:1px solid #d9d9d9;margin-top:10px;text-align:center;float:left}
+    .img_pr_1{float:left;text-align:center;width:100%;padding:10px 0}
+    .name_pr1{color:#083f88;font-weight:bold;text-decoration:none}
+    .wp_name1{width:100%}
+    .slogan_mb{display:none !important}
+    .img_href{float:left}
+    .img_href img{width:100%;height:auto !important;float:left}
+    .child_news{float:left;width:100%;margin-top:10px;border:1px solid #d9d9d9}
+    .name_news{float:right;width:56%;color:#083f88;margin-top:10px;font-weight:bold;font-size:12px}
+    .img_href_news{float:left;width:40%}
+    .img_href_news_1{float:left;width:100%}
+    #img_slide img{width:100% !important}
+}
+.wp_sp_cl{padding-left:10px;padding-right:10px}
+@media screen and (min-width:320px) and (max-width:450px){}
+.hangsx{float:left;width:100%;padding:10px 0}
+.san_sanpham{float:left;width:100%}
+.title_div_search{float:left;width:100%;text-indent:10px;color:#fff;background:#083f88;text-transform:uppercase;padding:7px 0;text-align:center;font-weight:bold}
+.content_hom{padding-left:10px;padding-right:10px}
+.giagoc1{color:#ed0101 !important;text-decoration:inherit !important}
+.giagoc{text-indent:10px;padding:0 0;text-decoration:line-through;color:#949494;display:inline-block;padding:4px 0}
+.gia_km{text-indent:10px;padding:5px 0;color:#ed0101;display:inline-block}
+.wp_contact{padding-right:10px;padding-left:10px}
+#f_register{float:left;width:100%}
+.table_cv_mb{float:left;width:100%}
+.inpunt_mb{border:1px #cbcbcb solid;width:100%;height:25px;padding:5px 0;text-indent:10px;margin-bottom:10px}
+#note_mb{width:100%;padding:5px 0;height:50px;border:1px #cbcbcb solid;text-indent:10px}
+#div_id{width:100%;height:200px}
+#btn-dang-ky{float:left;display:inline-block;padding:7px 15px;color:#fff;background:#083f88;margin:10px 0}
+.error{border:1px solid #F00 !important}
+.text_contact p{padding-bottom:10px;line-height:20px}
+a{text-decoration:none}
+.phantrang{margin:25px;float:right}
+.phantrang a{display:block;text-align:center;font-size:11px;color:#C00;margin:0 2px;line-height:18px;padding:0 5px;border:#CCC 1px solid;float:left}
+.phantrang .on{display:block;text-align:center;font-size:11px;color:#FFF;margin:0 2px;line-height:18px;padding:0 5px;border:#CCC 1px solid;float:left;background-color:#2f99dc;font-weight:bold}
+.phantrang a:hover{color:#FFF;background-color:#2f99dc;cursor:pointer;text-decoration:none !important}
+ul.pagination{float:right;font-size:11px;clear:both;margin-right:20px;margin-top:10px}
+ul.pagination li{float:left;padding-right:5px}
+ul.pagination li a{padding:4px 7px;border:1px solid #ccc;text-decoration:none;display:block;background:#fff url(../img/bg_fade_up.png) repeat-x bottom;color:#4d4d4d}
+ul.pagination li a:hover{background:#2f99dc;text-decoration:none;color:#fff}
+ul.pagination li.page a{color:#fff;font-weight:700;background:#2f99dc}
+ul.pagination li.page a:hover{background:#2f99dc;text-decoration:none;color:#fff}
+ul.pagination li.text a{border:none;text-decoration:underline;padding:0 5px 0 0}
+ul.pagination li.text{line-height:2em}
+.content_detail{float:left;width:100%}
+.content_detail p{padding-bottom:10px;line-height:20px}
+.content_detail img{max-width:100% !important;height:auto !important}
+.cart{background:url(../../../images/cart_1.png) no-repeat;width:28px;height:27px;text-align:center;display:inline-block;padding-bottom:10px;margin-right:10px}
+.left_name1{width:100%;float:left}
+.right_name1{float:left;width:100%;display:inline-block;text-align:center;display: none}
+.giohang:before{float:left;content:'';background:url("../../../images/giohang_mb.png") no-repeat;width:29px;height:28px;margin:5px 10px}
+.giohang{position:absolute;top:0;left:0;color:#fff;z-index:1000}
+.giohang b{float:left;margin-top:10px}
+.phone{float:left;color:#fff;position:absolute;top:11px;left:10px;z-index:1110;font-weight:bold;font-size:14px}
+#wp_phone_giohang{float:left;width:100%;height:40px;background:#0095d9}
+#wp_giohang{float:left;width:100%}
+.wp_giohang{float:left;width:100%}
+.order .title td{color:#fff;text-align:center;font-size:13px;font-weight:bold;background:#083f88;padding:9px 0}
+.back_home,.huy_gio_hang,.checkout{background:#083f88;color:#fff;padding:5px 10px;text-transform:uppercase;margin-right:5px;cursor:pointer;font-size:13px}
+.order table td{vertical-align:middle !important;text-align:center}
+.bg{background:#EFEDED}
+.input_ngnhan{width:95%;padding:10px;float:left;border:1px solid #eee;margin-bottom:10px;margin-right:10px;outline:0}
+#ghichu{float:left;width:95%;height:156px;outline:0;padding:10px;border:1px solid #eee}
+.wp_nguoinhan{padding-left:10px;padding-right:10px}
+.left_nguoinhan{float:left;width:100%}
+.right_nguoinhan{float:left;width:100%}
+.thaydoi{color:#fff;background:#083f88;padding:5px 10px;text-transform:uppercase}
+.right_content{padding-right:10px;padding-left:10px}
+#content_product{float:left;width:100%}
+.card_home_detail{display:inline-block;padding:6px 20px;background:#083f88;border:1px solid #083f88;color:#fff;text-transform:uppercase;text-align:center;margin-bottom:10px;cursor:pointer}
+.soluong_select{width:70px;height:30px;border:1px solid #eee}
+.thewater_name{float:left;width:92% !important;margin-left:4%;color:#787878;font-weight:bold;padding-top:10px;padding-bottom:10px;height:27px}
+#img_slide{float:left;width:100%;text-align:center}
+#img_slide img{text-align:center}
+.detail_sanpham p{padding-bottom:10px;line-height:20px}
+.sl_1{float:left;margin-right:10px;margin-top:8px}
+.soluong,.giohang{display: none}
